@@ -1,0 +1,7 @@
+.env
+node_modules/
+data/
+*.sqlite
+*.sqlite-*
+sdk/dist/*.map
+.DS_Store

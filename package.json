@@ -1,0 +1,12 @@
+{
+  "name": "universal-virtual-tryon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Universal Virtual Try-On SaaS (hosted SDK + license server + dashboards)",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix sdk install && npm run build:sdk",
+    "build:sdk": "npm --prefix sdk run build",
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix server run dev"
+  }
+}
